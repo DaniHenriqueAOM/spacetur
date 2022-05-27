@@ -35,16 +35,16 @@ img{
 
 #logo{
     display: flex;
-    justify-content: left;
+    flex-direction: row;
 }
 
 #menu ul{
     display: flex;
-    justify-content: right;
+    flex-direction: row-reverse;
+    margin-right: 25rem;
 }
 
 ul li{
-    display: flex;
     margin-left: 2rem;
     font-size: 14px;
     margin-top: 1rem;
