@@ -134,7 +134,7 @@ ul li a{
     font-size: 20px;
 }
 
-#form-box input{
+.campos{
     width: 98.5%;
     padding: 10px;
     border: 1px solid #ccc;
@@ -144,6 +144,18 @@ ul li a{
 }
 
 .active{
+    background-color: rgb(31, 30, 30);
+    color: #fff;
+    border-radius: 5px;
+}
+
+#cadastroId{
+    width: 80px;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+#cadastroId:hover{
     background-color: rgb(31, 30, 30);
     color: #fff;
     border-radius: 5px;
